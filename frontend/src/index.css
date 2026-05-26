@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+:root {
+  color: #dadada;
+  background: #101010;
+  font-family:
+    "Noto Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #101010;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
