@@ -1,4 +1,5 @@
 import profilePicture from "../assets/luffypfp.jpg";
+import SocialLinks from "./SocialLinks";
 
 function ProfileIntro() {
   return (
@@ -7,30 +8,34 @@ function ProfileIntro() {
         className="scroll-mt-16 flex flex-col gap-5 border-b border-[#282828] pb-8 sm:flex-row sm:items-center"
         id="about"
       >
-        <div className="flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-full border border-[#282828] bg-[#181818] p-1 shadow-[0_0_0_5px_#161616]">
-          <img
-            alt="Profile"
-            className="h-full w-full rounded-full object-cover"
-            src={profilePicture}
-          />
+        <div className="flex min-w-0 flex-1 items-center gap-5">
+          <div className="flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-full border border-[#282828] bg-[#181818] p-1 shadow-[0_0_0_5px_#161616]">
+            <img
+              alt="Profile"
+              className="h-full w-full rounded-full object-cover"
+              src={profilePicture}
+            />
+          </div>
+
+          <div className="min-w-0">
+            <h1 className="text-2xl font-semibold leading-tight text-[#DADADA] sm:text-3xl">
+              Dev Prajapati
+            </h1>
+            <p className="mt-1.5 text-sm leading-6 text-[#B0B0B0]">
+              <span className="text-[#8dd7ceb7]">
+                Backend Developer ·{" "}
+              </span>
+              <a
+                className="text-[#B0B0B0] transition hover:text-[#FFC799]"
+                href="mailto:jusxtdev@gmail.com"
+              >
+                jusxtdev@gmail.com
+              </a>
+            </p>
+          </div>
         </div>
 
-        <div>
-          <h1 className="text-2xl font-semibold leading-tight text-[#DADADA] sm:text-3xl">
-            Dev Prajapati
-          </h1>
-          <p className="mt-1.5 text-sm leading-6 text-[#B0B0B0]">
-            <span className="text-[#8dd7ceb7]">
-              Backend Developer ·{" "}
-            </span>
-            <a
-              className="text-[#B0B0B0] transition hover:text-[#FFC799]"
-              href="mailto:jusxtdev@gmail.com"
-            >
-              jusxtdev@gmail.com
-            </a>
-          </p>
-        </div>
+        <SocialLinks className="shrink-0 sm:ml-auto sm:justify-end" />
       </div>
 
       <p className="mt-6 max-w-2xl text-sm leading-7 text-[#B0B0B0]">

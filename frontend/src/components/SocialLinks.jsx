@@ -2,7 +2,7 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { SiGithub, SiX } from "react-icons/si";
 
-function SocialLinks() {
+function SocialLinks({ className = "" }) {
   const links = [
     {
       label: "GitHub",
@@ -31,7 +31,7 @@ function SocialLinks() {
   ];
 
   return (
-    <div className="mt-5 flex flex-wrap gap-2 text-[#B0B0B0]">
+    <div className={`flex flex-wrap gap-2 text-[#B0B0B0] ${className}`}>
       {links.map((link) => {
         const Icon = link.icon;
 

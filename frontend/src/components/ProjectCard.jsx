@@ -49,8 +49,8 @@ function ProjectCard({ project }) {
         <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(16,16,16,0.95),rgba(16,16,16,0.25),rgba(16,16,16,0.1))]" />
 
         {isInProgress && (
-          <span className="absolute left-3 top-3 flex items-center gap-1.5 border border-[#FF7300] bg-[#101010]/90 px-2 py-1 text-xs text-[#FF7300]">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#FF7300]" />
+          <span className="absolute left-2.5 top-2.5 flex items-center gap-1 border border-[#FF7300]/70 bg-[#101010]/90 px-1.5 py-0.5 text-[10px] leading-4 text-[#FF7300]">
+            <span className="h-1 w-1 rounded-full bg-[#FF7300]" />
             In progress
           </span>
         )}

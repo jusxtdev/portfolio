@@ -7,21 +7,36 @@ function ProjectsSection() {
       title: "E-commerce App",
       description:
         "Full-stack web application for an e-commerce platform with user authentication, product management, and shopping cart functionality.",
-      techStack: ["React", "TypeScript", "Tailwind", "Node.js", "Express", "PostgreSQL"],
+      techStack: [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+      ],
       // image: gymPRTrackerImage,
       status: "in-progress",
       liveUrl: "",
       githubUrl: "https://github.com/jusxtdev/E-Commerce-App.git",
-    },{
+    },
+    {
       title: "Gym-PR-Tracker",
-      description:
-        "Full-stack web application to log and track gym progress",
-      techStack: ["React", "TypeScript", "Tailwind", "Node.js", "Express", "PostgreSQL"],
+      description: "Full-stack web application to log and track gym progress",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+      ],
       image: gymPRTrackerImage,
       status: "Done",
       liveUrl: "https://gym-pr-tracker-frontend.onrender.com/",
       githubUrl: "https://github.com/jusxtdev/gym-PR-tracker",
     },
+    
   ];
 
   return (
@@ -33,7 +48,7 @@ function ProjectsSection() {
         Projects
       </h2>
 
-      <div className="mt-5 grid gap-4 sm:grid-cols-2">
+      <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
