@@ -8,7 +8,7 @@ function ProjectsSection() {
     {
       title: "Clavier",
       description:
-        "Full-stack web application for a Keyboar Selling e-commerce platform with user authentication, product management, and shopping cart functionality.",
+        "Keyboard Selling e-commerce platform with user authentication, product management, and shopping cart functionality.",
       techStack: [
         "React",
         "TypeScript",
