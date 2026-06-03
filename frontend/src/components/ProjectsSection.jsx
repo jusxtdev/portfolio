@@ -1,12 +1,14 @@
-import gymPRTrackerImage from "../assets/gymPRTracker.png";
+import clavierImage from "../assets/clavier.png"
+import gymPRTrackerImage from "../assets/gymPRTracker.png"
 import ProjectCard from "./ProjectCard";
+
 
 function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce App",
+      title: "Clavier",
       description:
-        "Full-stack web application for an e-commerce platform with user authentication, product management, and shopping cart functionality.",
+        "Full-stack web application for a Keyboar Selling e-commerce platform with user authentication, product management, and shopping cart functionality.",
       techStack: [
         "React",
         "TypeScript",
@@ -15,10 +17,10 @@ function ProjectsSection() {
         "Express",
         "PostgreSQL",
       ],
-      // image: gymPRTrackerImage,
+      image: clavierImage,
       status: "in-progress",
-      liveUrl: "",
-      githubUrl: "https://github.com/jusxtdev/E-Commerce-App.git",
+      liveUrl: "https://clavier-l10g.onrender.com/",
+      githubUrl: "https://github.com/jusxtdev/Clavier.git",
     },
     {
       title: "Gym-PR-Tracker",
