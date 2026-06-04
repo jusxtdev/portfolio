@@ -1,5 +1,6 @@
 import clavierImage from "../assets/clavier.png"
 import gymPRTrackerImage from "../assets/gymPRTracker.png"
+import bookmarksImage from "../assets/bookmarks.png"
 import ProjectCard from "./ProjectCard";
 
 
@@ -37,6 +38,22 @@ function ProjectsSection() {
       status: "Done",
       liveUrl: "https://gym-pr-tracker-frontend.onrender.com/",
       githubUrl: "https://github.com/jusxtdev/gym-PR-tracker",
+    },
+    {
+      title: "Bookmarks API",
+      description: "A FastAPI project for managing personal bookmarks with JWT authentication, SQLAlchemy models, and a SQLite database.",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "SQLAlchemy",
+        "Pydantic",
+        "JWT",
+      ],
+      image: bookmarksImage,
+      status: "Done",
+      liveUrl: "",
+      githubUrl: "https://github.com/jusxtdev/Bookmarks-API-with-Auth",
     },
     
   ];
