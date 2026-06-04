@@ -14,7 +14,7 @@ function Home() {
         <ProfileIntro />
         <ProjectsSection />
         <TechStackSection />
-        <GitHubActivitySection />
+        {/* <GitHubActivitySection /> */}
         <ContactSection />
       </section>
     </main>
