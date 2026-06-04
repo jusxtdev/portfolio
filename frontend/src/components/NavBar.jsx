@@ -3,7 +3,7 @@ function NavBar() {
     { label: "Home", href: "#home" },
     { label: "Projects", href: "#projects" },
     { label: "Tech Stack", href: "#tech-stack" },
-    { label: "GitHub", href: "#github" },
+    // { label: "GitHub", href: "#github" },
     { label: "Contact", href: "#contact" },
   ];
 
