@@ -20,7 +20,7 @@ function ProjectsSection() {
       ],
       image: clavierImage,
       status: "in-progress",
-      liveUrl: "https://clavier-l10g.onrender.com/",
+      liveUrl: "https://clavier-pkbt.onrender.com",
       githubUrl: "https://github.com/jusxtdev/Clavier.git",
     },
     {
