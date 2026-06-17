@@ -19,7 +19,7 @@ function ProjectsSection() {
         "PostgreSQL",
       ],
       image: clavierImage,
-      status: "in-progress",
+      status: "Done",
       liveUrl: "https://clavier-pkbt.onrender.com",
       githubUrl: "https://github.com/jusxtdev/Clavier.git",
     },
